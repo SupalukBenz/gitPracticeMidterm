@@ -15,6 +15,14 @@
     :return: sum of two number
     :raise: TypeError when arguments are not number
     """
+    if type(a) != int or type(b) != int:
+      raise TypeError
     return a + b
     ```
 1. Implement Junit
+2. Use Scrum
+3. Work in other project and learn new skill
+1. Implement unittest
+1. Use Agile Development Process
+1. Always clean code
+1. Don’t optimize prematurely 
